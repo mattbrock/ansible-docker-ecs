@@ -8,7 +8,7 @@ This is an Ansible framework to serve as a basis for building Docker images for 
 
 CentOS 7 is used for the Docker container, but this can be changed to a different Linux distro if desired. Amazon Linux 2 is used for the ECS cluster instances on EC2.
 
-I created a very basic [Python webapp](https://github.com/mattbrock/simple_webapp) to use as an example for the deployment here, but you can replace that with your own webapp should you so wish.
+I created a very basic [Python webapp](https://github.com/mattbrock/simple-webapp) to use as an example for the deployment here, but you can replace that with your own webapp should you so wish.
 
 **N.B.** Until you've tested this and honed it to your needs, **run it in a completely separate environment for safety reasons**, otherwise there is potential here for accidental destruction of parts of existing environments. Create a separate VPC specifically for this, or even use an entirely separate AWS account.
 
