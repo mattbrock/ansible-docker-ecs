@@ -9,7 +9,7 @@
 
   - name: Get app from GitHub
     git:
-      repo: "https://github.com/mattbrock/simple_webapp.git"
+      repo: "https://github.com/mattbrock/simple-webapp.git"
       dest: "docker/{{ app_name }}"
       force: yes
 

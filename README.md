@@ -54,7 +54,7 @@ These playbooks are run in the standard way, i.e:
 
     ansible-playbook PLAYBOOK_NAME.yml
 
-To deploy your own webapp instead of my [basic Python app](https://github.com/mattbrock/simple_webapp), you'll need to modify _[build\_push.yml](build\_push.yml)_ so it pulls your own app from your repo, then you can edit the variables as needed in _etc/variables.yml_.
+To deploy your own webapp instead of my [basic Python app](https://github.com/mattbrock/simple-webapp), you'll need to modify _[build\_push.yml](build\_push.yml)_ so it pulls your own app from your repo, then you can edit the variables as needed in _etc/variables.yml_.
 
 ## Playbooks for build/provisioning/deployment
 
