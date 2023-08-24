@@ -12,6 +12,8 @@ I created a very basic [Python webapp](https://github.com/mattbrock/simple-webap
 
 **N.B.** Until you've tested this and honed it to your needs, **run it in a completely separate environment for safety reasons**, otherwise there is potential here for accidental destruction of parts of existing environments. Create a separate VPC specifically for this, or even use an entirely separate AWS account.
 
+Accompanying [blog article](https://blog.cetre.co.uk/how-to-provision-an-ecs-cluster-and-deploy-a-webapp-on-it-with-load-balanced-docker-containers-using-ansible/).
+
 ## Installation/setup
 
 1. You'll need an [AWS](https://aws.amazon.com/) account with a [VPC](https://aws.amazon.com/vpc/) set up, and with a DNS domain set up in [Route 53](https://aws.amazon.com/route53/).
